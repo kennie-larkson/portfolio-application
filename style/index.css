@@ -1,0 +1,52 @@
+#main-container {
+  display: grid;
+  font-size: 25px;
+  color: cornflowerblue;
+  line-height: 2;
+  padding: 2em;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: thistle; */
+}
+
+.imgOneDiv > img {
+  width: 300px;
+  border-radius: 100%;
+  border: 2px solid cornflowerblue;
+}
+
+.imgOneDiv {
+  padding-left: 2em;
+  align-self: center;
+  justify-self: center;
+  opacity: 1;
+}
+
+button {
+  outline: tomato;
+  font-size: 20px;
+}
+
+.skills-btn > a {
+  text-decoration: none;
+  color: darkmagenta;
+}
+.skills-btn {
+  padding: 0.5em;
+  margin: 0.2em;
+  background-color: cornflowerblue;
+  border-radius: 15px;
+  /* border: none; */
+  border: 1px solid darkmagenta;
+}
+
+.skills-btn :hover {
+  border: 2px;
+}
+
+article, .socials {
+  margin-top: 2em;
+}
+
+.socials {
+  margin-left: 2em;
+}
